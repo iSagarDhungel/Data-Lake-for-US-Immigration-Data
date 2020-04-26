@@ -3,12 +3,8 @@
 ## Project Summary
 The goal of this project is to create an ETL pipeline using "I94 immigration data", "US city demographic data" and "World Temperature Data" in order to make a datawarehouse in parquet file format that is optimized for queries regarding immigration behavior.
 
-The project follows the follow steps:
-* Step 1: Scope the Project and Gather Data
-* Step 2: Explore and Assess the Data
-* Step 3: Define the Data Model
-* Step 4: Run ETL to Model the Data
-* Step 5: Complete Project Write Up
+The more detailed description is given in [this notebook](https://github.com/iSagarDhungel/Data-Lake-for-US-Immigration-Data/blob/master/Final%20Submission.ipynb)
+
 ---
 
 ## Scope of the project and dataset description
@@ -26,11 +22,11 @@ The datasets used in this project are described in next section.
 PySpark was used in this project for processing the data, but first we will use Pandas to perform exploratory analysis on the data. 
 
 #### Dataset Used 
-The I94 immigration data comes from the US National Tourism and Trade Office. It is provided in SAS7BDAT format which is a binary database storage format.
+The I94 immigration data comes from the [US National Tourism and Trade Office](https://travel.trade.gov/research/reports/i94/historical/2016.html). It is provided in SAS7BDAT format which is a binary database storage format.
 
-The "US city demographic data" data comes from Opensoft. It is provided in csv format.
+The "US city demographic data" data comes from [Opensoft](https://public.opendatasoft.com/explore/dataset/us-cities-demographics/export/). It is provided in csv format.
 
-The "World Temperature Data" comes from Kaggle. It is also provided in CSV format. 
+The "World Temperature Data" comes from [Kaggle](https://www.kaggle.com/berkeleyearth/climate-change-earth-surface-temperature-data). It is also provided in CSV format. 
 
 Data residing in the columns are described in the notebook.
 
