@@ -31,6 +31,22 @@ The "World Temperature Data" comes from [Kaggle](https://www.kaggle.com/berkeley
 Data residing in the columns are described in the notebook.
 
 ---
+## Project Structure
+```
+────sas_data                               # The dataset
+|   ...
+│   
+│──────  Experiments.ipynb                 # Testing Notebook
+|──────  Final Submission.ipynb            # Principal ETL Notebook
+|──────  I94_SAS_Labels_Descriptions.SAS   # Description for labels in immigration dataset
+│──────  airport-codes_csv.csv             # Data of airports
+|──────  immigration_data_sample.csv       # Sample csv data for immigration dataset
+|──────  portcode_city.txt                 # PortCode and city Name for immigration dataset
+│──────  us-cities-demographics.csv        # data for cities of us
+
+```
+
+---
 ## Define the Data Model
 #### Conceptual Data Model
 The model contains 3 tables and is based on `star schema`. It has 1 Fact table and 2 dimension tables. The details of the table are listed below:
